@@ -13,7 +13,7 @@ function LetterForm({ onAdd }) {
     return(
         <form onSubmit={handleSubmit}
         style={{
-        backgroundColor: "#f0f8ff",
+        backgroundColor: "#6baee6",
         padding: "15px",
         borderRadius: "8px",
         boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
@@ -26,7 +26,7 @@ function LetterForm({ onAdd }) {
                 onChange={(e) => setText(e.target.value)}
                 style={{
                     width: "100%",
-                    padding: "10px",
+                    padding: "5px",
                     border: "1px solid #ccc",
                     borderRadius: "6px",
         }}
